@@ -18,8 +18,11 @@ namespace PoGo.NecroBot.CLI
     [SuppressMessage("ReSharper", "UnusedParameter.Local")]
     internal class ConsoleEventListener
     {
+		
+		
         private static void HandleEvent(ProfileEvent profileEvent, ISession session)
         {
+			
             Logger.Write(session.Translation.GetTranslation(TranslationString.EventProfileLogin,
                 profileEvent.Profile.PlayerData.Username ?? ""));
         }
