@@ -22,6 +22,8 @@ namespace PoGo.NecroBot.Logic
     {
         [JsonIgnore] private string _filePath;
 
+		
+		
         public AuthType AuthType;
         public string GoogleUsername;
         public string GooglePassword;
